@@ -3,24 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EtherCalendar - Astrology Forecast App</title>
+    <title>EtherCalendar - Celestial Body Tracker App</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        header, footer { background-color: #333; color: white; text-align: center; padding: 1em; }
-        main { padding: 1em; }
-        h1, h2 { color: #333; }
-        a { color: #1e90ff; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-image: url('space.jpg'); /* This should be the path to your header image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 4em 1em;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        header p {
+            margin: 0.5em 0 0;
+            font-size: 1.2em;
+        }
+        main {
+            padding: 2em;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        h2 {
+            color: #444;
+            border-bottom: 2px solid #1e90ff;
+            display: inline-block;
+            padding-bottom: 0.3em;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #1e90ff;
+            color: white;
+            margin: 0.5em 0;
+            padding: 0.5em;
+            border-radius: 5px;
+        }
+        a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>EtherCalendar</h1>
-        <p>Astrology Forecast App</p>
+        <p>Celestial Body Tracker App</p>
     </header>
     <main>
         <section>
             <h2>Overview</h2>
-            <p>The Astrology Forecast App provides users with a comprehensive weekly overview of planetary retrogrades, aspects, and relevant recommendations.</p>
+            <p>The EtherCalendar app provides users with a comprehensive weekly overview of planetary retrogrades, aspects, and relevant recommendations.</p>
         </section>
         <section>
             <h2>Main Features</h2>
