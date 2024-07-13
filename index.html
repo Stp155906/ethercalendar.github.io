@@ -13,7 +13,7 @@
             color: #333;
         }
         header {
-            background-image: linear-gradient(135deg, #6e45e2 0%, #88d3ce 100%);
+            background-image: url('space.jpg'); /* This should be the path to your header image */
             background-size: cover;
             background-position: center;
             color: white;
@@ -53,18 +53,20 @@
             margin-bottom: 2em;
         }
         h2 {
-            color: #6e45e2;
-            border-bottom: 2px solid #f660ab;
+            color: #444;
             display: inline-block;
             padding-bottom: 0.3em;
             font-size: 1.5em;
+            background: linear-gradient(135deg, #6e45e2, #88d3ce);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
         ul {
             list-style-type: none;
             padding: 0;
         }
         ul li {
-            background: #6e45e2;
+            background: linear-gradient(135deg, #6e45e2, #f660ab);
             color: white;
             margin: 0.5em 0;
             padding: 1em;
